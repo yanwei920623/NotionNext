@@ -137,7 +137,7 @@ const BLOG = {
   ],
 
   // 樱花飘落特效
-  SAKURA: process.env.NEXT_PUBLIC_SAKURA || false, // 开关
+  SAKURA: process.env.NEXT_PUBLIC_SAKURA || true, // 开关
 
   // 漂浮线段特效
   NEST: process.env.NEXT_PUBLIC_NEST || false, // 开关
@@ -293,7 +293,7 @@ const BLOG = {
 
   // 谷歌广告
   ADSENSE_GOOGLE_ID: process.env.NEXT_PUBLIC_ADSENSE_GOOGLE_ID || '', // 谷歌广告ID e.g ca-pub-xxxxxxxxxxxxxxxx
-  ADSENSE_GOOGLE_TEST: process.env.NEXT_PUBLIC_ADSENSE_GOOGLE_TEST || false, // 谷歌广告ID测试模式，这种模式获取假的测试广告，用于开发 https://www.tangly1024.com/article/local-dev-google-adsense
+  ADSENSE_GOOGLE_TEST: process.env.NEXT_PUBLIC_ADSENSE_GOOGLE_TEST || true, // 谷歌广告ID测试模式，这种模式获取假的测试广告，用于开发 https://www.tangly1024.com/article/local-dev-google-adsense
 
   // 自定义配置notion数据库字段名
   NOTION_PROPERTY_NAME: {
