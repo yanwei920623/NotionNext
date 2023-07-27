@@ -28,7 +28,8 @@ const Footer = ({ title }) => {
         <i className='fas fa-users'/> <span className='px-1 busuanzi_value_site_uv'> </span> </span>
         <h1 className='text-xs pt-4 text-light-400 dark:text-gray-400'>{title} | {BLOG.BIO}</h1>      
         <p className='text-xs pt-2 text-light-500 dark:text-gray-500'>Powered by ysg </p>
-      </span><br/>
+      </span>
+    <br/>
     </footer>
   )
 }
